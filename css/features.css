@@ -1,0 +1,39 @@
+/* Великий заголовок всієї секції (темно-синій) */
+.features-section-title {
+  color: #2e2f42;
+}
+
+/* Заголовок кожної окремої картки */
+.features-item-title {
+  color: #2e2f42; /* Темно-синій Navy Blue */
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  margin-bottom: 8px;
+}
+
+/* Опис під заголовками */
+.features-item-text {
+  color: #434455; /* Сірий колір Slate */
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+.features-list {
+  display: flex;
+  gap: 24px;
+}
+.features-item {
+  width: calc((100% - 72px) / 4);
+}
+.features-icon-box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 112px;
+  margin-bottom: 8px;
+  background-color: #f4f4fd;
+  border: 1px solid #8e8f99;
+  border-radius: 4px;
+}

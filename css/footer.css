@@ -1,0 +1,113 @@
+/* Стилі для всього підвалу (темний фон з макета) */
+.footer {
+  padding: 100px 0;
+  background-color: #2e2f42;
+}
+
+/* Колір слова Studio у футері (за макетом воно біле) */
+.footer-logo {
+  display: inline-block;
+  margin-bottom: 16px;
+  color: #4d5ae5; /* Світлий колір Cloud */
+  text-transform: uppercase;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.33;
+  letter-spacing: 0.03em;
+}
+
+/* Колір слова Web у футері */
+.footer-logo span {
+  color: #f4f4fd;
+}
+
+/* Текст під логотипом у футері (світло-сірий) */
+.footer-text {
+  max-width: 264px;
+  color: #f4f4fd;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+.footer-container {
+  display: flex;
+  align-items: flex-start;
+}
+
+.footer-info {
+  margin-right: 120px;
+}
+.footer-social-title,
+.footer-subscribe-text {
+  margin-bottom: 16px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #ffffff;
+}
+.footer-social-list {
+  gap: 16px;
+}
+
+.footer-social-link:hover,
+.footer-social-link:focus {
+  background-color: #31d0aa;
+}
+
+/*-- Footer form --*/
+.footer-subscribe {
+  margin-left: auto;
+  margin-right: 15px;
+}
+
+.footer-form {
+  display: flex;
+  align-items: center;
+
+  gap: 24px;
+}
+.footer-form-field {
+}
+.footer-form-input {
+  color: #fff;
+  background-color: transparent;
+  outline: transparent;
+
+  border: 1px solid #fff;
+  border-radius: 4px;
+  padding: 8px 16px;
+  width: 264px;
+  height: 40px;
+  font-size: 12px;
+  line-height: 1.16667;
+  letter-spacing: 0.04em;
+  color: #fff;
+
+  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition-property: border-color;
+}
+.footer-form-input:focus {
+  border: 1px solid #31d0aa;
+}
+.footer-form-input::placeholder {
+  color: #fff;
+}
+
+.footer-form-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 16px;
+
+  border-radius: 4px;
+  padding: 8px 24px;
+  width: 165px;
+  height: 40px;
+  max-width: 165px;
+}
+.footer-form-btn:hover,
+.footer-form-btn:focus {
+  background: #31d0aa;
+}

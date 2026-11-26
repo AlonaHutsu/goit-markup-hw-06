@@ -1,0 +1,61 @@
+/* Базові стилі для всієї сторінки */
+body {
+  font-family: 'Roboto', sans-serif; /* Основний font-family */
+  color: #434455; /* Основний колір тексту (з Figma) */
+  background-color: #ffffff; /* Основний колір фону (білий) */
+  font-size: 16px; /* Основний розмір тексту */
+}
+
+.container {
+  max-width: 1158px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+}
+
+/* 1. Прибираємо маркери (крапки) у всіх списків */
+ul,
+ol {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+.sr-only {
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  border: 0;
+  padding: 0;
+  clip: rect(0 0 0 0);
+  clip-path: inset(100%);
+  margin: -1px;
+}
+
+/* 2. Прибираємо підкреслення у посилань та додаємо успадкування кольору */
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* 3. Додаємо кнопкам курсор у вигляді пальця */
+button {
+  cursor: pointer;
+}
+.section {
+  padding: 120px 0;
+}
